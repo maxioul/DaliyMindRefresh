@@ -28,7 +28,8 @@ public:
 
 
 //THen I checke the solutions, they all use the slide window, which add the current length of substring to the ans. I think my eqution is totally same, but why?
-//And I use the same code in the solution summary, it also failed. Maybe long long also overflow?
+//And I use the same code in the solution summary, it also failed.
+//I tried the answer with 100,000 same w, 100,000 * 100,001 /2 MOD 10e9+7; my answer should be correct, anyway, I have report it.
 //Passed code with slide window
 class Solution {
 public:
